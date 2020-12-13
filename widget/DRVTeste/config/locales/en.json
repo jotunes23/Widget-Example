@@ -1,0 +1,10 @@
+{
+  "resources": {
+    "cardTitleLabel": "The title card",
+    "cardTitleLabelHelpText" : "It is necessary to inform the card title to render it",
+    "cardImageLabel": "Image Card URL",
+    "cardImageLabelHelpText" : "It is necessary to inform the image url card to render it",
+    "cardTextLabel": "Text Card",
+    "cardTextLabelHelpText" : "It is necessary to inform the text card to render it"
+  }
+}

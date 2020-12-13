@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "id": "cardTitle",
+      "name": "Card Title",
+      "labelResourceId": "cardTitleLabel",
+      "type": "stringType",
+      "helpTextResourceId": "cardTitleLabelHelpText",
+      "required": true
+    },
+    {
+      "id": "cardImage",
+      "name": "Card Image",
+      "labelResourceId": "cardImageLabel",
+      "type": "mediaType",
+      "helpTextResourceId": "cardImageLabelHelpText",
+      "required": true
+    },
+    {
+      "id": "cardText",
+      "name": "Card Text",
+      "labelResourceId": "cardTextLabel",
+      "type": "stringType",
+      "helpTextResourceId": "cardTextLabelHelpText",
+      "required": true
+    }
+  ],
+  "widgetDescriptorName": "DRVTeste"
+}

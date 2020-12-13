@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "global": false,
+  "javascript": "teste",
+  "i18nresources": "teste",
+  "availableToAllPages": true,
+  "jsEditable": true,
+  "config": {
+    "cardTitle": "Titulo de Teste",
+    "cardImage": "/file/general/logo_portobello_.png",
+    "cardText": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe explicabo excepturi hic distinctio dicta neque ut dignissimos. Sequi deserunt cumque nostrum non aliquam iusto. Veniam aspernatur itaque voluptate eligendi provident."
+  },
+  "translations" : [
+    {
+      "language": "en",
+      "name": "DRV Test"
+    },
+    {
+      "language": "pt_BR",
+      "name": "DRV Teste"
+    }
+  ]
+}

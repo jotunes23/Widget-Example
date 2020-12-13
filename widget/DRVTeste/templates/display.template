@@ -1,0 +1,28 @@
+<div id="CC-Teste" data-bind="onRender: onRenderExample">
+  <div class="cardTeste">
+    <h2 class="cardTeste__title" data-bind="text: $data.cardTitle()"></h2>
+
+    <div class="cardTeste__image">
+      <img data-bind="ccResizeImage:
+        {
+          source: $data.cardImage.hasOwnProperty('src') ? $data.cardImage.src() : $data.cardImage(),
+          errorSrc: '/img/no-image.jpg',
+          isSrcSetEnabled : true,
+          errorAlt: 'Imagem não encontrada',
+          size:'75,191',
+        }"
+      />
+    </div>
+
+    <p class="cardTeste__text" data-bind="text: $data.cardText()"></p>
+
+    <p class="cardTeste__author">
+      <span data-bind="widgetLocaleText: 'author'"></span>
+      <span data-bind="text: $data.userName()"></span>
+    </p>
+
+    <div class="cardTeste__button">
+      <button data-bind="widgetLocaleText: 'cardButtonText', click: handleButton"></button>
+    </div>
+  </div>
+</div>
